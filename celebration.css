@@ -1,0 +1,104 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+    margin: 0;
+    text-align: center;
+    background-image:url("./images/new-year-bg.jpg");
+    background-size:contain;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/** video*/
+
+#myVideo {
+    min-height: 100%;
+    margin: 0 auto;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+}
+a,.fa-solid{
+    font-size: 3.5rem;
+    color: #f6f5f8;
+    padding: 1rem;
+}
+
+#test{
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%); 
+}
+.fix{
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+}
+
+.content {
+  background: rgba(20, 17, 17, 0.384);
+  color: #f1f1f1;
+  width: 80%;
+  padding: 40px;
+}
+
+#myBtn {
+    position: fixed;
+  width: 200px;
+  font-size: 18px;
+  padding: 0;
+  border: 2px solid rgb(74, 75, 87);
+  background: transparent;
+  color: #fff;
+  cursor: pointer;
+  bottom: 5%;
+  left: 50%;
+  border-radius: 1rem;
+  transform: translate(-50%, -5%);
+}
+
+#myBtn:hover {
+  background: #002f498e;
+  
+}
+
+
+
+.hero-section{
+    
+    color: #c4f8be;
+    text-shadow: 2px 2px #02062ebe;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    border-bottom: 0.2rem solid #ffb703;
+    overflow: hidden;
+  
+    justify-content: center;
+    border-radius: 0.4rem;
+    
+}
+h1{
+    font-size: 3rem;
+}
+
+
+.disc{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.disc p{
+    font-style: italic;
+}
+
